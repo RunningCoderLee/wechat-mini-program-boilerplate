@@ -1,0 +1,60 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": [
+			{
+				"type": "folder",
+				"value": "_scripts"
+			},
+			{
+				"type": "folder",
+				"value": "node_modules"
+			},
+			{
+				"type": "file",
+				"value": "package.json"
+			},
+			{
+				"type": "file",
+				"value": "package-lock.json"
+			},
+			{
+				"type": "file",
+				"value": "gulpfile.js"
+			},
+			{
+				"type": "suffix",
+				"value": ".jsx"
+			},
+			{
+				"type": "suffix",
+				"value": ".less"
+			},
+			{
+				"type": "folder",
+				"value": "common-less"
+			}
+		]
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
+	"projectname": "mps-ts",
+	"scripts": {
+		"beforeCompile": "npm run compile",
+		"beforePreview": "npm run compile",
+		"beforeUpload": "npm run compile"
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"appid": "wx055d52fc85b795e0",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}
