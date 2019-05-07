@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:before {
+    color: #000;
+  }
+
+  .userinfo-avatar {
+    width: 148px;
+    height: 128px;
+    margin: 20PX;
+    border-radius: 50%;
+  }
+}
+
+
+
+.userinfo-nickname {
+  color: $nickname-color;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
